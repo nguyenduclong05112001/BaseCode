@@ -78,4 +78,7 @@ dependencies {
     //dagger
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+    //constraintlayout
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 }
