@@ -72,10 +72,20 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:${rootProject.extra["compose_ui_version"]}")
     debugImplementation("androidx.compose.ui:ui-test-manifest:${rootProject.extra["compose_ui_version"]}")
 
+    //constraintlayout
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+
     //navigation
     implementation("androidx.navigation:navigation-compose:2.5.3")
 
     //dagger
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+    //rememberPagerState
+
+    implementation("com.google.accompanist:accompanist-pager:0.12.0")
+    implementation("com.google.accompanist:accompanist-permissions:0.24.7-alpha")
+    implementation("com.google.accompanist:accompanist-flowlayout:0.11.1")
 }
