@@ -84,8 +84,8 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.44")
 
     //rememberPagerState
-
     implementation("com.google.accompanist:accompanist-pager:0.12.0")
     implementation("com.google.accompanist:accompanist-permissions:0.24.7-alpha")
     implementation("com.google.accompanist:accompanist-flowlayout:0.11.1")
+    implementation ("com.google.accompanist:accompanist-pager-indicators:0.12.0")
 }
