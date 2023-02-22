@@ -1,7 +1,7 @@
-package com.example.app.ui
+package com.longhrk.app.ui
 
-import com.example.app.ui.event.NavEvent
-import com.example.app.ui.viewmodel.NavViewModel
+import com.longhrk.app.ui.event.NavEvent
+import com.longhrk.app.ui.viewmodel.NavViewModel
 
 class EventHandler(
     private val navigationViewModel: NavViewModel

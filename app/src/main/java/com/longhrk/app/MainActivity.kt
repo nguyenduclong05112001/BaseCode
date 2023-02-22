@@ -1,4 +1,4 @@
-package com.example.app
+package com.longhrk.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,11 +11,11 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.example.app.ui.EventHandler
-import com.example.app.ui.NavGraph
-import com.example.app.ui.extensions.handleNavEvent
-import com.example.app.ui.theme.Base_CodeTheme
-import com.example.app.ui.viewmodel.NavViewModel
+import com.longhrk.app.ui.EventHandler
+import com.longhrk.app.ui.NavGraph
+import com.longhrk.app.ui.extensions.handleNavEvent
+import com.longhrk.app.ui.theme.Base_CodeTheme
+import com.longhrk.app.ui.viewmodel.NavViewModel
 
 class MainActivity : ComponentActivity() {
     private val navigationViewModel by viewModels<NavViewModel>()

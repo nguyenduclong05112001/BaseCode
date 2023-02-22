@@ -1,4 +1,4 @@
-package com.example.app.ui
+package com.longhrk.app.ui
 
 sealed class NavTarget(val route: String) {
 

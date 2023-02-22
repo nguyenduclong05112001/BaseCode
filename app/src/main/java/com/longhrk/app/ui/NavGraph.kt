@@ -1,13 +1,13 @@
-package com.example.app.ui
+package com.longhrk.app.ui
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.app.ui.event.NavEvent
-import com.example.app.ui.screen.HomeScreen
-import com.example.app.ui.screen.OtherScreen
-import com.example.app.ui.screen.SplashScreen
+import com.longhrk.app.ui.event.NavEvent
+import com.longhrk.app.ui.screen.HomeScreen
+import com.longhrk.app.ui.screen.OtherScreen
+import com.longhrk.app.ui.screen.SplashScreen
 
 @Composable
 fun NavGraph(eventHandler: EventHandler, navController: NavHostController) {
