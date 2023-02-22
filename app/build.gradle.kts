@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app"
+    namespace = "com.longhrk.app"
     compileSdk = 32
 
     defaultConfig {
