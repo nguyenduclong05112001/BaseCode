@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BaseCode"
 include(":app")
+include(":core:ui")
