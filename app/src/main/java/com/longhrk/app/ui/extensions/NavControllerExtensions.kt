@@ -1,8 +1,8 @@
-package com.example.app.ui.extensions
+package com.longhrk.app.ui.extensions
 
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
-import com.example.app.ui.event.NavEvent
+import com.longhrk.app.ui.event.NavEvent
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 

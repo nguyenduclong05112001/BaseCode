@@ -1,6 +1,6 @@
-package com.example.app.ui.event
+package com.longhrk.app.ui.event
 
-import com.example.app.ui.NavTarget
+import com.longhrk.app.ui.NavTarget
 
 sealed class NavEvent {
     object None : NavEvent()

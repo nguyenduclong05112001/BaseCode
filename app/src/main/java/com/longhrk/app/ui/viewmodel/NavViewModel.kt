@@ -1,7 +1,7 @@
-package com.example.app.ui.viewmodel
+package com.longhrk.app.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.example.app.ui.event.NavEvent
+import com.longhrk.app.ui.event.NavEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

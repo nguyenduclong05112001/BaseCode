@@ -1,4 +1,4 @@
-package com.example.app.ui.screen
+package com.longhrk.app.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,12 +9,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun OtherScreen(onClick: () -> Unit) {
+fun SplashScreen(onNextScreen: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color.Red)
-            .clickable { onClick() }
+            .background(color = Color.Blue)
+            .clickable { onNextScreen() }
     ) {
 
     }
