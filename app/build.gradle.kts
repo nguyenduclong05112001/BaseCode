@@ -9,12 +9,12 @@ plugins {
 
 android {
     namespace = "com.longhrk.app"
-    compileSdk = 32
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.example.app"
-        minSdk = 21
-        targetSdk = 32
+        minSdk = 24
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -58,6 +58,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:dimension"))
 
     implementation("androidx.core:core-ktx:1.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")

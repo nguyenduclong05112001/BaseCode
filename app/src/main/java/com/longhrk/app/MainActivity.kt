@@ -27,14 +27,14 @@ class MainActivity : ComponentActivity() {
                 EventHandler(navigationViewModel)
             }
             Base_CodeTheme(darkTheme = true) {
-                graphMainApp(eventHandler)
+                GraphMainApp(eventHandler)
             }
         }
     }
 }
 
 @Composable
-private fun graphMainApp(eventHandler: EventHandler) {
+private fun GraphMainApp(eventHandler: EventHandler) {
     val navController = rememberNavController()
     LaunchedEffect(Unit) {
         eventHandler.navEvent().collect {
