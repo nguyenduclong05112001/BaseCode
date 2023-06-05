@@ -1,6 +1,7 @@
 package com.longhrk.data.di
 
 import android.content.Context
+import android.content.SharedPreferences
 import androidx.room.Room
 import com.longhrk.data.database.AppDatabase
 import dagger.Module
@@ -13,6 +14,14 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class DataModule {
+
+    @Provides
+    @Singleton
+    fun providesSharePreference(
+        @ApplicationContext context: Context,
+    ): SharedPreferences {
+        return context.getSharedPreferences("preference_name", Context.MODE_PRIVATE)
+    }
 
     @DatabaseName
     @Provides
