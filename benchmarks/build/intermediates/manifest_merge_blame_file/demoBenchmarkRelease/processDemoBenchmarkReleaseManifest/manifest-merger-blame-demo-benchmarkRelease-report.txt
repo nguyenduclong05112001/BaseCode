@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright 2022 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.apps.longhrk.benchmarks" >
+19
+20    <uses-sdk
+20-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:20:5-22:41
+21        android:minSdkVersion="28"
+21-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:21:9-35
+22        android:targetSdkVersion="34" />
+22-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:22:9-38
+23
+24    <instrumentation
+24-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:24:5-29:63
+25        android:name="androidx.test.runner.AndroidJUnitRunner"
+25-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:25:9-63
+26        android:functionalTest="false"
+26-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:26:9-39
+27        android:handleProfiling="false"
+27-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:27:9-40
+28        android:label="Tests for com.apps.longhrk.benchmarks"
+28-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:28:9-62
+29        android:targetPackage="com.apps.longhrk.benchmarks" />
+29-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:29:9-60
+30
+31    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+31-->[androidx.benchmark:benchmark-macro:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\50c9d2408c46145ecfee75f7e5a105d5\transformed\benchmark-macro-1.2.4\AndroidManifest.xml:23:5-25:53
+31-->[androidx.benchmark:benchmark-macro:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\50c9d2408c46145ecfee75f7e5a105d5\transformed\benchmark-macro-1.2.4\AndroidManifest.xml:24:9-61
+32    <!--
+33         Internet permission is required for perfetto trace shell processor http server but
+34        it's used to reach localhost only
+35    -->
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->[androidx.benchmark:benchmark-macro:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\50c9d2408c46145ecfee75f7e5a105d5\transformed\benchmark-macro-1.2.4\AndroidManifest.xml:31:5-67
+36-->[androidx.benchmark:benchmark-macro:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\50c9d2408c46145ecfee75f7e5a105d5\transformed\benchmark-macro-1.2.4\AndroidManifest.xml:31:22-64
+37    <!--
+38    This is needed to write benchmark report data to an external directory during instrumented
+39    tests to allow the accompanying androidx.benchmark gradle plugin to pull the reports onto host
+40     machine after the tests are done running.
+41    -->
+42    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+42-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:27:5-81
+42-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:27:22-78
+43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+44    <uses-permission android:name="android.permission.REORDER_TASKS" />
+44-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+44-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+45
+46    <queries>
+46-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+47        <package android:name="androidx.test.orchestrator" />
+47-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+47-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+48        <package android:name="androidx.test.services" />
+48-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+48-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+49        <package android:name="com.google.android.apps.common.testing.services" />
+49-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+49-->[androidx.test:runner:1.5.2] C:\Users\longl\.gradle\caches\transforms-4\195e97e32e999799b4756be49e0a73b1\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+50    </queries>
+51
+52    <permission
+52-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+53        android:name="com.apps.longhrk.benchmarks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.apps.longhrk.benchmarks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:31:5-33:19
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.9.0] C:\Users\longl\.gradle\caches\transforms-4\c93f9a1098018eb78e632ae564cd6f93\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:networkSecurityConfig="@xml/network_security_config" >
+62-->[androidx.benchmark:benchmark-macro:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\50c9d2408c46145ecfee75f7e5a105d5\transformed\benchmark-macro-1.2.4\AndroidManifest.xml:42:18-78
+63        <uses-library android:name="android.test.runner" />
+63-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:32:9-60
+63-->E:\Coding\nowinandroid\benchmarks\build\intermediates\tmp\manifest\demo\benchmarkRelease\tempFile2ProcessTestManifest13576791428153803421.xml:32:23-57
+64        <!-- Activity used to block background content while benchmarks are running -->
+65        <activity
+65-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:32:9-36:20
+66            android:name="androidx.benchmark.IsolationActivity"
+66-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:33:13-64
+67            android:exported="true"
+67-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:34:13-36
+68            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+68-->[androidx.benchmark:benchmark-common:1.2.4] C:\Users\longl\.gradle\caches\transforms-4\bb7eaf97681901b5787949ee555ba11f\transformed\benchmark-common-1.2.4\AndroidManifest.xml:35:13-77
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+71-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+72            android:exported="true"
+72-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+73            android:theme="@style/WhiteBackgroundTheme" >
+73-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+74            <intent-filter android:priority="-100" >
+74-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+74-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+75-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+79-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+80            android:exported="true"
+80-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+81            android:theme="@style/WhiteBackgroundTheme" >
+81-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+82            <intent-filter android:priority="-100" >
+82-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+82-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+83-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+87            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+87-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+88            android:exported="true"
+88-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+89            android:theme="@style/WhiteBackgroundDialogTheme" >
+89-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+90            <intent-filter android:priority="-100" >
+90-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+90-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+91-->[androidx.test:core:1.5.0] C:\Users\longl\.gradle\caches\transforms-4\dacb30385c99549aa5663d8c4f05f330\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+92            </intent-filter>
+93        </activity>
+94
+95        <provider
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+97            android:authorities="com.apps.longhrk.benchmarks.androidx-startup"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
+103                android:name="androidx.tracing.perfetto.StartupTracingInitializer"
+103-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
+104                android:value="androidx.startup" />
+104-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
+105        </provider>
+106
+107        <receiver
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+108            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+109            android:directBootAware="false"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+110            android:enabled="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+111            android:exported="true"
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+112            android:permission="android.permission.DUMP" >
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+114                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+117                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+120                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+123                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\longl\.gradle\caches\transforms-4\2770276ba668b3745a61ed80bb304c5e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+124            </intent-filter>
+125        </receiver>
+126        <receiver
+126-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
+127            android:name="androidx.tracing.perfetto.TracingReceiver"
+127-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
+128            android:directBootAware="false"
+128-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
+129            android:enabled="true"
+129-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
+130            android:exported="true"
+130-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
+131            android:permission="android.permission.DUMP" >
+131-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
+132
+133            <!-- Note: DUMP above highly limits who can call the receiver; Shell has DUMP perm. -->
+134            <intent-filter>
+134-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
+135                <action android:name="androidx.tracing.perfetto.action.ENABLE_TRACING" />
+135-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
+135-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
+136                <action android:name="androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START" />
+136-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
+136-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
+137                <action android:name="androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START" />
+137-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
+137-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
+138            </intent-filter>
+139        </receiver>
+140        <receiver
+140-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
+141            android:name="androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate"
+141-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
+142            android:directBootAware="false"
+142-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
+143            android:enabled="false"
+143-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
+144            android:exported="false" >
+144-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\longl\.gradle\caches\transforms-4\161725f0af3858785e93566304a34930\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
+145        </receiver>
+146    </application>
+147
+148</manifest>

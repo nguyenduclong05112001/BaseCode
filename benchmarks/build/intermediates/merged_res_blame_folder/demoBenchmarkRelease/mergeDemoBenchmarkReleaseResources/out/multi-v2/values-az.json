@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apps.longhrk.benchmarks-mergeDemoBenchmarkReleaseResources-15:/values-az/values-az.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\longl\\.gradle\\caches\\transforms-4\\c93f9a1098018eb78e632ae564cd6f93\\transformed\\core-1.9.0\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

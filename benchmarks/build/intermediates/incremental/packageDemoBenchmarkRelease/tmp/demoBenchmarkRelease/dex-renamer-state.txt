@@ -1,0 +1,25 @@
+#Sun Jul 28 15:15:05 ICT 2024
+base.0=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeExtDexDemoBenchmarkRelease\\classes.dex
+base.1=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\0\\classes.dex
+base.2=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\10\\classes.dex
+base.3=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\14\\classes.dex
+base.4=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\3\\classes.dex
+base.5=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\5\\classes.dex
+base.6=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\dex\\demoBenchmarkRelease\\mergeProjectDexDemoBenchmarkRelease\\6\\classes.dex
+base.7=E\:\\Coding\\nowinandroid\\benchmarks\\build\\intermediates\\desugar_lib_dex\\demoBenchmarkRelease\\l8DexDesugarLibDemoBenchmarkRelease\\classes1000.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=10/classes.dex
+path.3=14/classes.dex
+path.4=3/classes.dex
+path.5=5/classes.dex
+path.6=6/classes.dex
+path.7=classes1000.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
+renamed.5=classes6.dex
+renamed.6=classes7.dex
+renamed.7=classes8.dex
