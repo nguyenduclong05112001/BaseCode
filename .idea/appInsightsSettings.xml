@@ -17,6 +17,23 @@
             </InsightsFilterSettings>
           </value>
         </entry>
+        <entry key="Firebase Crashlytics">
+          <value>
+            <InsightsFilterSettings>
+              <option name="connection">
+                <ConnectionSetting>
+                  <option name="appId" value="com.apps.longhrk.demo.debug" />
+                  <option name="mobileSdkAppId" value="Your:App:Id" />
+                  <option name="projectId" value="abc" />
+                  <option name="projectNumber" value="YourProjectId" />
+                </ConnectionSetting>
+              </option>
+              <option name="signal" value="SIGNAL_UNSPECIFIED" />
+              <option name="timeIntervalDays" value="THIRTY_DAYS" />
+              <option name="visibilityType" value="ALL" />
+            </InsightsFilterSettings>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
